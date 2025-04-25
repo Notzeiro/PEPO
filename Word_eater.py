@@ -6,3 +6,5 @@ for letter in user_word:
   else: 
        print(letter)
     
+
+odds = [x for x in squares if x % 2 != 0 ]

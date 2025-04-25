@@ -1,7 +1,8 @@
-amount=int(input("Enter the amount of products you wanna add: "))
+
 total=0
-for i in range (amount):
-    print("product list: \n 1. Milk $2000 \n 2. Bread $1000\n 3. Eggs $7000\n 4. Butter $8000\n 5. Cheese $20000 \n 6. Ham $20300")
+product=1
+while product !=0:
+    print("WELCOME TO NOTZEIRO`S STORE \n to exit press 0 \n product list: \n 1. Milk $2000 \n 2. Bread $1000\n 3. Eggs $7000\n 4. Butter $8000\n 5. Cheese $20000 \n 6. Ham $20300")
     product=int(input("Enter the product you want to add: "))
     if product==1:
         print ("You added Milk")
