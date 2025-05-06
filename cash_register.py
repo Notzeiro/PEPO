@@ -35,11 +35,11 @@ while access==True:
 
 if trueaccess==True: #From here starts the actual program
 
-K5=30         #amount of bills in the atm
-K10=30
-K20=30
+ K5=30         #amount of bills in the atm
+ K10=30
+ K20=30
 p=True
-while p=True:
+while p==True:
  menu=int(input("1.-Show your balance\n2.-Withdraw\n3.-Deposit\n0.-Exit")) #ATM menu
  if menu==0:
   print("Bye ^^") #exit 
